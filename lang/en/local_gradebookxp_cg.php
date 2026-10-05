@@ -1,0 +1,24 @@
+<?php
+$string['pluginname'] = 'GradebookXP CG';
+$string['configuration'] = 'Configure GradebookXP CG';
+$string['configdescription'] = 'Enable the private Chronagogik extension for this course and map gradable activities to its 16 firmware slots.';
+$string['configsaved'] = 'The GradebookXP CG configuration was saved.';
+$string['enablecourse'] = 'Enable GradebookXP CG in this course';
+$string['nomapping'] = 'No mapping';
+$string['invalidmapping'] = 'The previously mapped activity is unavailable. Saving removes the mapping.';
+$string['firmware'] = 'Firmware';
+$string['modeassembly'] = '1 – Assembly';
+$string['modehmm'] = '2 – HMM / Viterbi';
+$string['modeclustering'] = '3 – Clustering / k-Means';
+$string['modealignment'] = '4 – Alignment';
+$string['optintitle'] = 'Chronagogik cockpit';
+$string['optinlabel'] = 'Share my learning progress with the Chronagogik cockpit.';
+$string['optindescription'] = 'When enabled, GradebookXP CG uses your existing activity grades to determine which firmware versions are available in the Chronagogik cockpit. You can disable the connection at any time. Your regular grades and learning-objective feedback are unaffected.';
+$string['preferencesaved'] = 'Your cockpit preference was saved.';
+$string['coursedisabled'] = 'GradebookXP CG is not enabled in this course.';
+$string['privacy:metadata:optin'] = 'Stores the voluntary course-specific activation of the Chronagogik cockpit connection.';
+$string['privacy:metadata:optin:courseid'] = 'The related course.';
+$string['privacy:metadata:optin:userid'] = 'The user who owns the setting.';
+$string['privacy:metadata:optin:enabled'] = 'Whether the connection is enabled.';
+$string['privacy:metadata:optin:timecreated'] = 'When the setting was created.';
+$string['privacy:metadata:optin:timemodified'] = 'When the setting was last changed.';

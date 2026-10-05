@@ -1,0 +1,24 @@
+<?php
+$string['pluginname'] = 'GradebookXP CG';
+$string['configuration'] = 'GradebookXP CG konfigurieren';
+$string['configdescription'] = 'Aktivieren Sie die private Chronagogik-Erweiterung für diesen Kurs und ordnen Sie den 16 Firmware-Slots bewertbare Aktivitäten zu.';
+$string['configsaved'] = 'Die GradebookXP-CG-Konfiguration wurde gespeichert.';
+$string['enablecourse'] = 'GradebookXP CG in diesem Kurs aktivieren';
+$string['nomapping'] = 'Keine Zuordnung';
+$string['invalidmapping'] = 'Die bisher zugeordnete Aktivität ist nicht mehr verfügbar. Beim Speichern wird die Zuordnung entfernt.';
+$string['firmware'] = 'Firmware';
+$string['modeassembly'] = '1 – Assembly';
+$string['modehmm'] = '2 – HMM / Viterbi';
+$string['modeclustering'] = '3 – Clustering / k-Means';
+$string['modealignment'] = '4 – Alignment';
+$string['optintitle'] = 'Chronagogik-Cockpit';
+$string['optinlabel'] = 'Meinen Lernfortschritt für das Chronagogik-Cockpit freigeben.';
+$string['optindescription'] = 'Wenn Sie diese Option aktivieren, ermittelt GradebookXP CG anhand Ihrer vorhandenen Aufgabenbewertungen, welche Firmware-Versionen im Chronagogik-Cockpit freigeschaltet sind. Sie können die Freigabe jederzeit wieder deaktivieren. Ihre regulären Bewertungen und Lernzielrückmeldungen bleiben davon unberührt.';
+$string['preferencesaved'] = 'Ihre Cockpit-Einstellung wurde gespeichert.';
+$string['coursedisabled'] = 'GradebookXP CG ist in diesem Kurs nicht aktiviert.';
+$string['privacy:metadata:optin'] = 'Speichert die freiwillige kursbezogene Aktivierung der Chronagogik-Cockpit-Anbindung.';
+$string['privacy:metadata:optin:courseid'] = 'Der zugehörige Kurs.';
+$string['privacy:metadata:optin:userid'] = 'Der Nutzer, dem die Einstellung gehört.';
+$string['privacy:metadata:optin:enabled'] = 'Ob die Verbindung aktiviert ist.';
+$string['privacy:metadata:optin:timecreated'] = 'Zeitpunkt der Erstellung.';
+$string['privacy:metadata:optin:timemodified'] = 'Zeitpunkt der letzten Änderung.';

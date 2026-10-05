@@ -1,0 +1,49 @@
+.gradebookxp-cg-config,
+.gradebookxp-cg-optin,
+.gradebookxp-cg-radar-optin {
+    max-width: 1100px;
+    padding: 1rem;
+    border: 1px solid #d5d9df;
+    border-radius: .4rem;
+    background: #fff;
+}
+
+.gradebookxp-cg-radar-optin {
+    margin: 1.5rem auto;
+}
+
+.gradebookxp-cg-radar-checkbox {
+    margin-right: .55rem;
+}
+
+.gradebookxp-cg-course-switch {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.gradebookxp-cg-course-switch input,
+.gradebookxp-cg-optin input {
+    margin-right: .55rem;
+}
+
+.gradebookxp-cg-mode {
+    border-top: 1px solid #e2e4e7;
+    margin: 0 0 1rem;
+    padding: 1rem 0 0;
+}
+
+.gradebookxp-cg-mode legend {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.gradebookxp-cg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: .8rem;
+}
+
+.gradebookxp-cg-slot label {
+    display: block;
+    font-weight: 600;
+}
