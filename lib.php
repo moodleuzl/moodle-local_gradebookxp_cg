@@ -6,8 +6,8 @@ function local_gradebookxp_cg_extend_navigation_course($navigation, $course, $co
     global $DB;
 
     $canmanage = has_capability('local/gradebookxp_cg:manage', $context);
-    $enabled = (bool)$DB->get_field('local_gradebookxp_cg_course', 'enabled', ['courseid' => $course->id]);
-    if (!$canmanage && (!$enabled || !has_capability('local/gradebookxp_cg:use', $context))) {
+    if (!$canmanage && (!has_capability('local/gradebookxp_cg:use', $context)
+            || !$DB->get_field('local_gradebookxp_cg_course', 'enabled', ['courseid' => $course->id]))) {
         return;
     }
     $url = $canmanage
