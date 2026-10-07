@@ -1,5 +1,7 @@
 <?php
 $string['pluginname'] = 'GradebookXP CG';
+$string['gradebookxp_cg:use'] = 'Use GradebookXP CG';
+$string['gradebookxp_cg:manage'] = 'Configure GradebookXP CG';
 $string['configuration'] = 'Configure GradebookXP CG';
 $string['configdescription'] = 'Enable the private Chronagogik extension for this course and map gradable activities to its 16 firmware slots.';
 $string['configsaved'] = 'The GradebookXP CG configuration was saved.';
